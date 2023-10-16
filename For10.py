@@ -8,6 +8,6 @@ def main(list1):
     """
     a=[]
     for i  in list1:
-        a.append(i.title())
+        a.append(i.capitalize())
     return a
 print(main(['rustam', 'diyor', 'alisher', 'bektosh']))
